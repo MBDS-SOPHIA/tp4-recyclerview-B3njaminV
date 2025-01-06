@@ -18,8 +18,8 @@ class FakeApiService : ApiService {
      * This user must be get from the [FakeApiServiceGenerator.FAKE_USERS_RANDOM] list.
      */
     override fun addRandomUser() {
-        val randomUser = FakeApiServiceGenerator.generateRandomUser()
-        _users.add(randomUser)
+        val user = FakeApiServiceGenerator.FAKE_USERS_RANDOM.random()
+        _users.add(user)
     }
 
     /**
