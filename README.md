@@ -35,4 +35,4 @@ Dans ce TP vous allez apprendre à manipuler les recyclerviews dans une applicat
 
 # Contributeurs
 
-Benjamin VALLEIX
+Benjamin VALLEIX MIAGE
